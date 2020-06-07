@@ -73,4 +73,3 @@ Currently updating:
 - `google_plus_url`
 - `fbadminapp`
 
-Thanks to Pablo Postigo, Tedy Warsitha and Charlie Francis for amazing contributions!
