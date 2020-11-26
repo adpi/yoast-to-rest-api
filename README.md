@@ -14,7 +14,8 @@ Returns Yoast post or page metadata in a normal post or page request. Stores the
   yoast_meta: {
     yoast_wpseo_title: "Testy Test | My WordPress site",
     yoast_wpseo_metadesc: "My description",
-    yoast_wpseo_canonical: "http://my-wordpress-site.test/testy-test"
+    yoast_wpseo_canonical: "http://my-wordpress-site.test/testy-test",
+    yoast_wpseo_focuskw: "Focus keyphrase"
   }
 }
 ```

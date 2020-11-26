@@ -121,6 +121,7 @@ class Yoast_To_REST_API {
       'yoast_wpseo_title'     => $this->get_post_title($p['id']),
       'yoast_wpseo_metadesc'  => $this->get_post_description($p['id']),
       'yoast_wpseo_canonical' => '',
+      'yoast_wpseo_focuskw' => get_post_meta( $p['id'], '_yoast_wpseo_focuskw', true ),
     );
 
     return (array) $yoast_meta;
